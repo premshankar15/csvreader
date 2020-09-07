@@ -13,7 +13,7 @@ public class Application {
 		ConfigurableApplicationContext context = SpringApplication.run(Application.class, args);
 		ProductService productService= context.getBean(ProductService.class);
 		productService.doProcess("product.txt");
-		System.out.println("Helo..........");
+		System.out.println("Hello, how are you..........");
 	}
 
 }
