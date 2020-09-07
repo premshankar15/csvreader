@@ -31,6 +31,7 @@ public class ProductServiceImpl implements ProductService {
 	}
 	catch(Exception e) {
 		e.printStackTrace();
+		System.out.println("IO Exception thrown");
 	}
 	return csvDataWriter2;
 	}
